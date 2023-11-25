@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/Bank.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/Bank.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/BankInventory.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/BankInventory.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/BankItemWidget.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/BankItemWidget.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/DepositBox.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/DepositBox.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/ETileItem.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/ETileItem.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/Equipment.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/Equipment.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/EquipmentItemWidget.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/EquipmentItemWidget.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/Inventory.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/Inventory.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/NPCs.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/NPCs.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/Players.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/Players.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/Shop.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/Shop.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/ShopInventory.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/ShopInventory.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/TileItems.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/TileItems.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/TileObjects.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/TileObjects.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/Widgets.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/Widgets.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/query/EquipmentItemQuery.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/query/EquipmentItemQuery.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/query/ItemQuery.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/query/ItemQuery.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/query/NPCQuery.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/query/NPCQuery.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/query/PlayerQuery.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/query/PlayerQuery.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/query/TileItemQuery.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/query/TileItemQuery.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/query/TileObjectQuery.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/query/TileObjectQuery.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/query/WidgetQuery.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Collections/query/WidgetQuery.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/PathFinding/GlobalCollisionMap.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/PathFinding/GlobalCollisionMap.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/PathFinding/Node.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/PathFinding/Node.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Utility/HelperClass.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Utility/HelperClass.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Utility/QuickPrayer.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Utility/QuickPrayer.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Utility/QuickPrayer.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Utility/WorldAreaUtility.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Utility/WorldAreaUtility.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Utility/WorldPointUtility.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/ethanvannlibrary/Utility/WorldPointUtility.java" charset="windows-1252" />
+  </component>
+</project>
