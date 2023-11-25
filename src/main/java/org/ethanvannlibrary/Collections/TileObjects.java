@@ -12,59 +12,48 @@ import java.util.List;
 public class TileObjects {
     static Client client = RuneLite.getInjector().getInstance(Client.class);
     static List<TileObject> tileObjects = new ArrayList<>();
-
+    final static int lastUpdateTick = 0;
     public static TileObjectQuery search() {
-        return new TileObjectQuery(tileObjects);
-    }
-
-    @Subscribe(priority = 10000)
-    public void onGameTick(GameTick e) {
-        tileObjects.clear();
-        TileItems.tileItems.clear();
-        for (Tile[] tiles : client.getScene().getTiles()[client.getPlane()]) {
-            if (tiles == null) {
-                continue;
-            }
-            for (Tile tile : tiles) {
-                if (tile == null) {
+        if(lastUpdateTick < client.getTickCount()){
+            tileObjects.clear();
+            for (Tile[] tiles : client.getScene().getTiles()[client.getPlane()]) {
+                if (tiles == null) {
                     continue;
                 }
-                if (tile.getGroundItems() != null) {
-                    for (TileItem groundItem : tile.getGroundItems()) {
-                        if (groundItem == null) {
+                for (Tile tile : tiles) {
+                    if (tile == null) {
+                        continue;
+                    }
+                    for (GameObject gameObject : tile.getGameObjects()) {
+                        if (gameObject == null) {
                             continue;
                         }
-                        TileItems.tileItems.add(new ETileItem(tile.getWorldLocation(), groundItem));
+                        if (gameObject.getId() == -1) {
+                            continue;
+                        }
+                        tileObjects.add(gameObject);
                     }
-                }
-                for (GameObject gameObject : tile.getGameObjects()) {
-                    if (gameObject == null) {
-                        continue;
+                    if (tile.getGroundObject() != null) {
+                        if (tile.getGroundObject().getId() == -1) {
+                            continue;
+                        }
+                        tileObjects.add(tile.getGroundObject());
                     }
-                    if (gameObject.getId() == -1) {
-                        continue;
+                    if (tile.getWallObject() != null) {
+                        if (tile.getWallObject().getId() == -1) {
+                            continue;
+                        }
+                        tileObjects.add(tile.getWallObject());
                     }
-                    tileObjects.add(gameObject);
-                }
-                if (tile.getGroundObject() != null) {
-                    if (tile.getGroundObject().getId() == -1) {
-                        continue;
+                    if (tile.getDecorativeObject() != null) {
+                        if (tile.getDecorativeObject().getId() == -1) {
+                            continue;
+                        }
+                        tileObjects.add(tile.getDecorativeObject());
                     }
-                    tileObjects.add(tile.getGroundObject());
-                }
-                if (tile.getWallObject() != null) {
-                    if (tile.getWallObject().getId() == -1) {
-                        continue;
-                    }
-                    tileObjects.add(tile.getWallObject());
-                }
-                if (tile.getDecorativeObject() != null) {
-                    if (tile.getDecorativeObject().getId() == -1) {
-                        continue;
-                    }
-                    tileObjects.add(tile.getDecorativeObject());
                 }
             }
         }
+        return new TileObjectQuery(tileObjects);
     }
 }

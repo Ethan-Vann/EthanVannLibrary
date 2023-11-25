@@ -13,20 +13,19 @@ import java.util.List;
 public class NPCs {
     static Client client = RuneLite.getInjector().getInstance(Client.class);
     private static final List<NPC> npcList = new ArrayList<>();
-
+    private static int lastUpdateTick = 0;
     public static NPCQuery search() {
-        return new NPCQuery(npcList);
-    }
-
-    @Subscribe(priority = 10000)
-    public void onGameTick(GameTick e) {
         npcList.clear();
-        for (NPC npc : client.getNpcs()) {
-            if (npc == null)
-                continue;
-            if (npc.getId() == -1)
-                continue;
-            npcList.add(npc);
+        if(lastUpdateTick < client.getTickCount()) {
+            lastUpdateTick = client.getTickCount();
+            for (NPC npc : client.getNpcs()) {
+                if (npc == null)
+                    continue;
+                if (npc.getId() == -1)
+                    continue;
+                npcList.add(npc);
+            }
         }
+        return new NPCQuery(npcList);
     }
 }

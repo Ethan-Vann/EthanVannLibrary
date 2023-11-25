@@ -45,11 +45,4 @@ public class Inventory {
     public static int getItemAmount(String itemName) {
         return search().withName(itemName).result().size();
     }
-
-    @Subscribe
-    public void onGameStateChanged(GameStateChanged gameStateChanged) {
-        if (gameStateChanged.getGameState() == GameState.HOPPING || gameStateChanged.getGameState() == GameState.LOGIN_SCREEN || gameStateChanged.getGameState() == GameState.CONNECTION_LOST) {
-            Inventory.inventoryItems.clear();
-        }
-    }
 }

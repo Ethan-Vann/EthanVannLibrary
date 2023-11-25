@@ -25,40 +25,4 @@ public class Shop {
         }
         return new ItemQuery(shopItems.stream().filter(Objects::nonNull).collect(Collectors.toList()));
     }
-
-//    @Subscribe
-//    public void onWidgetLoaded(WidgetLoaded e)
-//    {
-//        if (e.getGroupId() == WidgetID.SHOP_GROUP_ID)
-//        {
-//            try
-//            {
-//                shopItems =
-//                        Arrays.stream(client.getWidget(SHOP_ITEM_CONTAINER_PACKED_ID).getDynamicChildren()).filter(Objects::nonNull).filter(x -> x.getItemId() != 6512 && x.getItemId() != -1).collect(Collectors.toList());
-//            }
-//            catch (NullPointerException err)
-//            {
-//                shopItems.clear();
-//            }
-//        }
-//    }
-//
-//    @Subscribe
-//    public void onItemContainerChanged(ItemContainerChanged e)
-//    {
-//        if (client.getWidget(SHOP_ITEM_CONTAINER_PACKED_ID) == null)
-//        {
-//            shopItems.clear();
-//            return;
-//        }
-//        try
-//        {
-//            shopItems =
-//                    Arrays.stream(client.getWidget(SHOP_ITEM_CONTAINER_PACKED_ID).getDynamicChildren()).filter(Objects::nonNull).filter(x -> x.getItemId() != 6512 && x.getItemId() != -1).collect(Collectors.toList());
-//        }
-//        catch (NullPointerException err)
-//        {
-//            shopItems.clear();
-//        }
-//    }
 }
