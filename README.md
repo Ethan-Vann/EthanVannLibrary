@@ -1,5 +1,5 @@
-h1 Warnings
+# Warnings
 * currently only supports runelite 1.10.16.1
-h1 Todo
+# Todo
 * fix runelite updates breaking some things
 * setup server to distribute json and setup client loading from network call
